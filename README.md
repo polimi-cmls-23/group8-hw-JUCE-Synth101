@@ -4,7 +4,7 @@ The **Juce Plugin**  we've decided to analyse is the [PAPU](https://github.com/F
 
 ## About
 
-This plugin basically consists of two combined square waves with the addition of a noise. The GUI is represented in the following image:
+This plugin basically consists of two combined square waves with the addition of a noise. The plugin implements several parameters capable of modifying the original signals which can be controlled through knobs. The GUI is represented in the following image:
 
 ![](https://socalabs.com/wp-content/uploads/2022/06/Pasted-1-1024x434.png)
 
