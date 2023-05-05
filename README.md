@@ -1,6 +1,6 @@
 # HW2 - Analysis of a Synth Juce Plugin - PAPU
 
-The **Juce Plugin**  we've decided to analyse is the [PAPU](https://github.com/FigBug/PAPU/tree/master/plugin/Source) plugin, which is an emulator of the Nintendo Gameboy audio hardware.
+The **Juce Plugin**  we've decided to analyse is the [PAPU](https://github.com/FigBug/PAPU) plugin, which is an emulator of the Nintendo Gameboy audio hardware.
 
 ## About
 
