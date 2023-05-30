@@ -1,6 +1,8 @@
 # HW2 - Analysis of a Synth Juce Plugin - PAPU
 
 The **Juce Plugin**  we've decided to analyse is [PAPU](https://github.com/FigBug/PAPU), which is an emulator of the Nintendo Gameboy audio hardware.
+[Here](https://soundcloud.com/roland-rabien/papu) you can listen to the sound effects reproduced by this plugin.
+
 
 ## About
 
@@ -16,34 +18,24 @@ This plugin basically consists of two combined square waves with the addition of
 - Waveform display
 - Stereo output
 
-[Here](https://soundcloud.com/roland-rabien/papu) you can listen to the sound effects reproduced by this plugin.
-
 ## First square oscillator parameters:
 
-
-- PW: duty cycle of the squarewave
+- PW: regulates the duty cycle of the squarewave
 - Attack: sets the time it takes for the signal to rise
-- Release: sets the time it takes for the sound to decay when the key is released
-- Tune: shift in semitones on played sounds
-- Fine: detune effect on the played sound
-- Sweep: factor that regulates the time interval between when changing frequency during the” sweep effect”
-- Shift: factor that regulates the frequency interval in the “sweep effect”
+- Release: sets the time it takes for the sound to decay when a key is released
+- Tune: represents a shift in semitones on played sounds 
+- Fine: controls a detune effect on the played sound
+- Sweep: regulates the duration of notes during the “sweep” effect, this will be clearer in chapter 3.2 and 4
+- Shift: regulates the frequency interval between consecutive notes in the “sweep” effect, this will be clearer in chapter 3.2 and 4
+
 
 ## Second square oscillator parameters:
 
-- PW: duty cycle of the squarewave
-
+- PW: regulates the duty cycle of the squarewave
 - Attack: sets the time it takes for the signal to rise
-
-- Release: sets the time it takes for the sound to decay when the key is released
-
-- Tune: shift in semitones on played sounds
-
-- Fine: detune effect on the played sound
-
-- Sweep: factor that regulates the time interval between when changing frequency during the” sweep effect”
-
-- Shift: factor that regulates the frequency interval in the “sweep effect”
+- Release: sets the time it takes for the sound to decay when a key is released
+- Tune: represents a shift in semitones on played sounds 
+- Fine: controls a detune effect on the played sound
 
 ## Noise oscillator parameters:
 
@@ -55,5 +47,7 @@ This plugin basically consists of two combined square waves with the addition of
 
 ## Overall parameters:
 
-- Voices: number of keys that can be pressed at the same time
-- Output: global output volume
+- Voices: controls the number of keys that can be pressed at the same time
+- Output: sets the global output volume
+
+
