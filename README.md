@@ -17,3 +17,45 @@ This plugin basically consists of two combined square waves with the addition of
 - Stereo output
 
 [Here](https://soundcloud.com/roland-rabien/papu) you can listen to the sound effects reproduced by this plugin.
+
+## First square oscillator parameters:
+
+
+PW: duty cycle of the squarewave
+Attack: sets the time it takes for the signal to rise
+Release: sets the time it takes for the sound to decay when the key is released
+Tune: shift in semitones on played sounds
+Fine: detune effect on the played sound
+Sweep: factor that regulates the time interval between when changing frequency during the” sweep effect”
+Shift: factor that regulates the frequency interval in the “sweep effect”
+
+## Second square oscillator parameters:
+
+PW: duty cycle of the squarewave
+
+Attack: sets the time it takes for the signal to rise
+
+Release: sets the time it takes for the sound to decay when the key is released
+
+Tune: shift in semitones on played sounds
+
+Fine: detune effect on the played sound
+
+Sweep: factor that regulates the time interval between when changing frequency during the” sweep effect”
+
+Shift: factor that regulates the frequency interval in the “sweep effect”
+
+## Noise oscillator parameters:
+
+For the noise generation instead the possible settings are the following:      
+
+Attack: sets the time it takes for the signal to rise
+Release: sets the time it takes for the sound to decay when the key is released
+Shift: the different sound waves are also shifted in time when superimposed, this parameter controls it.
+Steps: the generation of the noise is an “addictive one” in the sense that a single noise signal is generated. The steps parameter indicates how many times this wave is  superimposed.
+Ratio: is basically the amount of amplification of the noise signal compared to the square ones.
+
+There are some additional parameters that instead affect every synth:
+
+Voices: number of keys that can be pressed at the same time
+Output: global output volume
