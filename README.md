@@ -40,10 +40,10 @@ This plugin basically consists of two combined square waves with the addition of
 ## Noise oscillator parameters:
 
 - Attack: sets the time it takes for the signal to rise
-- Release: sets the time it takes for the sound to decay when the key is released
-- Shift: the different sound waves are also shifted in time when superimposed, this parameter controls it.
-- Steps: the generation of the noise is an “addictive one” in the sense that a single noise signal is generated. The steps parameter indicates how many times this wave is  superimposed.
-- Ratio: is basically the amount of amplification of the noise signal compared to the square ones.
+- Release: sets the time it takes for the sound to decay when a key is released
+- Steps:. Indicates how many of the same noise waves are superimposed. The generation of the noise is in fact an “additive one”, in the sense that a single noise signal is generated and then it is summed to some other identical replicas
+- Shift: controls the time shift of each individual noise wave mentioned above
+- Ratio: controls the amount of amplification of the noise signal 
 
 ## Overall parameters:
 
